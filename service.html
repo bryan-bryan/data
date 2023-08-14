@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>webdatatransfer</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/Venobox/venobox.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body style="background-image: url('blenderdatasendmail010122220002.png');">
+
+
+  <div class="chat-container">
+      <div class="chat-toggle" id="chat-toggle">
+        <span>&times;</span>
+      </div>
+      <div class="chat-content">
+        <div class="chat-header">
+          <h2>Soporte Técnico IA</h2>
+        </div>
+        <div class="chat-log" id="chat-log">
+          <div class="chat-message bot">
+            <p>Bienvenido, ¿en qué puedo ayudarte?</p>
+          </div>
+        </div>
+        <div class="chat-input">
+          <input type="text" id="user-input" placeholder="Escribe tu mensaje aquí" autocomplete="off">
+          <button id="send-button">Enviar</button>
+        </div>
+      </div>
+  </div>
+  
+  
+    <style>
+      .logo-container000 {
+        position: relative;
+        width: 100px; /* Ajusta el tamaño según sea necesario */
+        height: 100px;
+        perspective: 600px;
+      }
+  
+      .logo {
+        position: absolute;
+        top: 70%;
+        left: 70%;
+        transform: translate(-50%, -50%) rotateY(0deg);
+        transform-style: preserve-3d;
+        animation: rotateWorld 10s linear infinite;
+        width: 90px;
+        height: 90px;
+      }
+  
+      @keyframes rotateWorld {
+        0% { transform: translate(-50%, -50%) rotateY(0deg); }
+        100% { transform: translate(-50%, -50%) rotateY(360deg); }
+      }
+    </style>
+  
+  
+  
+  <nav class="fixed-top navigation">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <div class="logo-container000">
+            <img class="logo" src="loginm/datasendmails-n-logo 20.png" alt="logo">
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar -->
+        <div class="collapse navbar-collapse text-center" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Datasendmails</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Servicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+          <a href="loginm/index.html" class="btn btn-primary ml-lg-5 nav-link page-scroll">Login</a>
+        </div>
+      </nav>
+    </div>
+  </nav>
+<!-- /navigation -->
+
+<!-- service -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="section-title">Datasendmails</h2>
+                <p class="mb-100">Bienvenido a DataSendMails, la solución confiable para la transferencia segura de datos a través de correos electrónicos. Nuestro servicio permite a los desarrolladores integrar fácilmente nuestros endpoints en sus códigos HTML, Flutter, Java y React. ¡Envía información sensible directamente a las bandejas de entrada de tus usuarios con tranquilidad, sabiendo que sus datos están protegidos contra ataques maliciosos!</p>
+            </div>
+            <!-- service item -->
+            <div class="col-sm-6 mb-4">
+                <div class="rounded bg-white p-4 shadow-primary">
+                    <i class="ti-layers-alt round-icon blue mb-4"></i>
+                    <h4>¿Por qué elegir DataSendMails?</h4>
+                    <p>Seguridad en primer lugar: Nuestra plataforma está diseñada con múltiples capas de seguridad para garantizar que todos los datos que transmites a través de nuestros endpoints estén protegidos y encriptados.
+                      Integración sencilla: Con documentación clara y ejemplos de código, nuestros endpoints son fáciles de integrar en tus aplicaciones y páginas web, sin importar el lenguaje que utilices.
+                      Potente SMTP: Ofrecemos un servidor SMTP confiable para aquellos que deseen enviar correos electrónicos a través de sus propios backends, asegurando una entrega confiable y rápida.
+                      Soporte técnico excepcional: Nuestro equipo de expertos está siempre dispuesto a ayudarte con cualquier pregunta o problema que puedas tener. Estamos aquí para asegurarnos de que tu experiencia con DataSendMails sea excelente</p>
+                </div>
+            </div>
+            <!-- service item -->
+            <div class="col-sm-6 mb-4 translate-y-150">
+                <div class="rounded bg-white p-4 shadow-primary">
+                    <i class="ti-layers-alt round-icon green mb-4"></i>
+                    <h4>Cómo integrar nuestros endpoints</h4>
+                    <p>Integrar nuestros endpoints en tu código es muy sencillo. Proporcionamos una documentación detallada con ejemplos para cada lenguaje compatible, incluyendo HTML, Flutter, Java y React. Solo necesitas seguir unos pocos pasos para comenzar a enviar datos a través de correos electrónicos en cuestión de minutos.</p>
+                </div>
+            </div>
+            <!-- service item -->
+            <div class="col-sm-6 mb-4">
+                <div class="rounded bg-white p-4 shadow-primary">
+                    <i class="ti-layers-alt round-icon orange mb-4"></i>
+                    <h4>Protege los datos de tus usuarios</h4>
+                    <p>En DataSendMails, la seguridad es nuestra máxima prioridad. Cada vez que tus usuarios envían información a través de nuestros endpoints, puedes estar seguro de que sus datos están protegidos mediante la última tecnología de encriptación y almacenados de forma segura en nuestros servidores. Así puedes brindarles una experiencia de usuario confiable y sin preocupaciones.</p>
+                </div>
+            </div>
+            <!-- service item -->
+            <div class="col-sm-6 mb-4 translate-y-150">
+                <div class="rounded bg-white p-4 shadow-primary">
+                    <i class="ti-layers-alt round-icon blue mb-4"></i>
+                    <h4> Utiliza nuestro servidor SMTP</h4>
+                    <p>Para aquellos que prefieren tener el control total sobre el envío de correos electrónicos, ofrecemos un servidor SMTP confiable y potente. Conéctate a nuestro SMTP y envía correos electrónicos personalizados a tus usuarios desde tu backend. Es la solución ideal para adaptar el servicio a tus necesidades específicas.</p>
+                </div>
+            </div>
+            <!-- service item -->
+            <div class="col-sm-6 mb-4">
+                <div class="rounded bg-white p-4 shadow-primary">
+                    <i class="ti-layers-alt round-icon green mb-4"></i>
+                    <h4>Garantía de satisfacción</h4>
+                    <p>Estamos seguros de que te encantará usar DataSendMails y que nuestros servicios superarán tus expectativas. Por esa razón, ofrecemos una garantía de satisfacción del 100%. Si por alguna razón no estás satisfecho con nuestro servicio, háganoslo saber y haremos todo lo posible para resolverlo.
+
+                      Espero que este contenido sea útil para tu página web "DataSendMails" y que resalte los servicios que ofreces en torno a la transferencia segura de datos y la integración de endpoints en diferentes lenguajes de programación. ¡Buena suerte con tu proyecto!</p>
+                </div>
+            </div>
+            <!-- service item -->
+            <div class="col-sm-6 mb-4 translate-y-150">
+                <div class="rounded bg-white p-4 shadow-primary">
+                    <i class="ti-layers-alt round-icon orange mb-4"></i>
+                    <h4>Great service</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.<br><br>There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- background shapes -->
+    <img class="service-bg-1 up-down-animation" src="images/background-shape/feature-bg-2.png" alt="">
+    <img class="service-bg-2 left-right-animation" src="images/background-shape/seo-half-cycle.png" alt="">
+    <img class="service-bg-3 up-down-animation" src="images/background-shape/team-bg-triangle.png" alt="">
+    <img class="service-bg-4 left-right-animation" src="images/background-shape/green-dot.png" alt="">
+    <img class="service-bg-5 up-down-animation" src="images/background-shape/team-bg-triangle.png" alt="">
+</section>
+<!-- /service -->
+
+<!-- footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+        <!-- logo -->
+        <a href="index.html">
+          <div class="logo-container000">
+            <img class="logo" src="loginm/datasendmails-n-logo 20.png" alt="logo">
+          </div>
+         
+        </a>
+      </div>
+      <!-- footer menu -->
+      <nav class="col-lg-8 align-self-center mb-5">
+        <ul class="list-inline text-lg-right text-center footer-menu">
+          <li class="list-inline-item active"><a href="index.html">inicio</a></li>
+          <li class="list-inline-item"><a href="about.html">datasendmails</a></li>
+          <li class="list-inline-item"><a class="page-scroll" href="#team">equipo</a></li>
+          <li class="list-inline-item"><a class="page-scroll" href="#pricing">Prisio</a></li>
+          <li class="list-inline-item"><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- footer social icon -->
+      <nav class="col-12">
+        <ul class="list-inline text-lg-right text-center social-icon">
+          <li class="list-inline-item">
+            <a class="facebook" href="#"><i class="ti-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a class="twitter" href="#"><i class="ti-twitter-alt"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a class="linkedin" href="#"><i class="ti-linkedin"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/datasendmails" target="blank" class="list-inline-item">
+              <i class="bi bi-github"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- venobox -->
+<script src="plugins/Venobox/venobox.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+<footer class="text-center">
+  <p>Todos los derechos reservados &copy; 2023 datasendmails</p>
+</footer>
+
+</body>
+</html>

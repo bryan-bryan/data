@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>datasendmails</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/Venobox/venobox.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="prism/prism.css">
+
+  <link rel="shortcut icon" href="datasendmails-n-logo 19.png" type="image/x-icon">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+
+
+<body style="background-image: url('blenderdatasendmail010122220002.png');">
+
+
+<div id="cookie-banner" class="cookie-banner">
+  <p><strong>datasendmail utiliza cookies</strong>. Utilizamos cookies para mejorar tu experiencia en nuestro sitio web y garantizar la seguridad de tus datos. Al continuar navegando, aceptas nuestro uso de cookies. Puedes obtener más información sobre cómo utilizamos las cookies en nuestra <a href="cookie.html">política de cookies</a>.</p>
+    <button id="accept-cookie-btn">Aceptar</button>
+</div>
+
+<div class="chat-container">
+    <div class="chat-toggle" id="chat-toggle">
+      <span>&times;</span>
+    </div>
+    <div class="chat-content">
+      <div class="chat-header">
+        <h2>Soporte Técnico IA</h2>
+      </div>
+      <div class="chat-log" id="chat-log">
+        <div class="chat-message bot">
+          <p>Bienvenido, ¿en qué puedo ayudarte?</p>
+        </div>
+      </div>
+      <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Escribe tu mensaje aquí" autocomplete="off">
+        <button id="send-button">Enviar</button>
+      </div>
+    </div>
+</div>
+
+
+
+
+  <style>
+    .logo-container000 {
+      position: relative;
+      width: 100px; /* Ajusta el tamaño según sea necesario */
+      height: 100px;
+      perspective: 600px;
+    }
+
+    .logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotateY(0deg);
+      transform-style: preserve-3d;
+      animation: rotateWorld 10s linear infinite;
+      width: 90px;
+      height: 90px;
+    }
+
+    @keyframes rotateWorld {
+      0% { transform: translate(-50%, -50%) rotateY(0deg); }
+      100% { transform: translate(-50%, -50%) rotateY(360deg); }
+    }
+  </style>
+
+
+
+<!-- navigation -->
+<nav class="fixed-top navigation">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">
+        <div class="logo-container000">
+          <img class="logo" src="loginm/datasendmails-n-logo 20.png" alt="logo">
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- navbar -->
+      <div class="collapse navbar-collapse text-center" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Datasendmails</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Servicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contacto</a>
+          </li>
+        </ul>
+        <a href="loginm/index.html" class="btn btn-primary ml-lg-5 nav-link page-scroll">Login</a>
+      </div>
+    </nav>
+  </div>
+</nav>
+
+
+
+
+
+<!-- /navigation -->
+
+<main>
+ <section class="hero-section hero" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center zindex-1">
+        <h1 class="mb-3">Envia tus Formularios con nuestro Endpoints <br>
+          </h1>
+        <p class="mb-4">Bienvenido a DataSendMails, la plataforma líder en transferencia segura de datos a través de correos electrónicos. Ofrecemos endpoints fáciles de integrar en códigos HTML, Flutter, Java y React para enviar información sensible directamente a las bandejas de entrada de tus usuarios. Con un enfoque en la seguridad, nuestros expertos programadores y hackers éticos trabajaron en el desarrollo de la plataforma, garantizando una protección impenetrable contra ataques de cualquier tipo. Además, la sencillez de uso de nuestros endpoints hace que sea fácil para cualquier desarrollador implementar nuestros servicios en sus aplicaciones y páginas web. Confía en DataSendMails para una transferencia de datos segura y una experiencia de usuario confiable. <br>
+          </p>
+        <a href="#" class="btn btn-secondary btn-lg">suscripcion</a>
+        <br>
+        <br>
+        <br>
+
+          <div class="data-send-mails">DataSendMails</div>
+          <img
+            class="pngtree-global-science-and-technology-information-5268568-1"
+            src="map datasendmails.png"
+          />
+
+        
+        <!-- banner image -->
+        <img class="img-fluid w-100 banner-image" src="datasendmails2023.png" alt="banner-img"/>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <!-- background shapes -->
+
+ </section>
+ <br>
+ <br>
+ <br>
+ <!-- /hero-area -->
+
+ <!-- feature -->
+ <section class="section feature mb-0" id="feature">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Confíe en que sus correos electrónicos se entregan y sus datos están seguros</h2>
+        <p class="mb-100">Datasendmails</p>
+      </div>
+      <!-- feature item -->
+      <div class="col-md-6 mb-80">
+        <div class="">
+          <div>
+            <i class="ti-ruler-pencil feature-icon mr-4"></i>
+          </div>
+          <div>
+            <h4>Capacidad de entrega</h4>
+            <p>Las herramientas y la experiencia que necesita para optimizar la tasa de entrega de su bandeja de entrada..</p>
+          </div>
+        </div>
+      </div>
+      <!-- feature item -->
+      <div class="col-md-6 mb-80">
+        <div class="">
+          <div>
+            <i class="ti-layout-cta-left feature-icon mr-4"></i>
+          </div>
+          <div>
+            <h4>Escalabilidad</h4>
+            <p>Envíe en una plataforma de clase mundial que entrega más de 100 mil millones de correos electrónicos cada mes..</p>
+          </div>
+        </div>
+      </div>
+      <!-- feature item -->
+      <div class="col-md-6 mb-80">
+        <div class="">
+          <div>
+            <i class=" feature-icon mr-4"></i>
+          </div>
+          <div>
+            <h4>Soporte 24/7</h4>
+            <p>Nuestros equipos de soporte pueden brindarle información y orientación cuando más lo necesite..</p>
+          </div>
+        </div>
+      </div>
+      <!-- feature item -->
+      <div class="col-md-6 mb-80">
+        <div class="">
+          <div>
+            <i class="ti-layers-alt feature-icon mr-4"></i>
+          </div>
+          <div>
+            <h4>globalmente</h4>
+            <p>Confíe en la arquitectura distribuida globalmente por nuestro Equipo .</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img class="feature-bg-2 left-right-animation" src="images/background-shape/feature-bg-2.png" alt="bg-shape">
+ </section>
+
+<br>
+<br>
+<br>
+
+
+
+ <!-- /feature -->
+
+
+ <!-- marketing -->
+ <section class="section-lg seo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="seo-image">
+          <img class="img-fluid" src="datasendmails2023.png" alt="form-img">
+        </div>
+      </div>
+      <div class="col-md-5">
+        <h2 class="section-title">La API de correo electrónico de desarrolladores, para desarrolladores!</h2>
+        <p>Integre y entregue en minutos con nuestras API RESTful y SMTP, bibliotecas para respaldar su lenguaje de programación y documentación interactiva.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- background image -->
+  <!-- background-shape -->
+  <img class="seo-bg-shape-1 left-right-animation" src="images/background-shape/seo-ball-1.png" alt="bg-shape">
+  <img class="seo-bg-shape-2 up-down-animation" src="images/background-shape/seo-half-cycle.png" alt="bg-shape">
+ </section>
+ <!-- /marketing -->
+
+ <!-- service -->
+ <br>
+ <br>
+ <br>
+ <br>
+ <section class="section-lg service">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-md-5 order-2 order-md-1">
+        <h2 class="section-title">Tus compañeros te lo agradecerán</h2>
+        <p class="mb-4">Elimine los silos para alcanzar objetivos compartidos. La plataforma de correo electrónico que permite a los desarrolladores, especialistas en marketing y líderes empresariales colaborar sin problemas</p>
+        <ul class="pl-0 service-list">
+          <li><i class="ti-layout-tab-window text-purple"></i>Configurar los ajustes de la cuenta (permisos y segmentación)</li>
+          <li><i class="ti-layout-placeholder text-purple"></i>Solucionar problemas de forma diagnóstica para identificar problemas de entrega</li>
+          <li><i class="ti-support text-purple"></i>Visibilidad del rendimiento de los compañeros de equipo en todas las funciones</li>
+        </ul>
+      </div>
+      <div class="col-md-7 order-1 order-md-2">
+        <img class="img-fluid layer-3" src="datasendmails2023.png" alt="service">
+      </div>
+    </div>
+  </div>
+  <!-- background image -->
+  <!-- background shapes -->
+  <img class="service-bg-shape-1 up-down-animation" src="images/background-shape/service-half-cycle.png" alt="background-shape">
+  <img class="service-bg-shape-2 left-right-animation" src="images/background-shape/feature-bg-2.png" alt="background-shape">
+ </section>
+ <br>
+ <br>
+ <br>
+ <br>
+ <!-- /service -->
+
+ <section class="section-lg service">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-md-5 order-2 order-md-1">
+        <h2 class="section-title">Tus compañeros te lo agradecerán</h2>
+        <p class="mb-4">Elimine los silos para alcanzar objetivos compartidos. La plataforma de correo electrónico que permite a los desarrolladores, especialistas en marketing y líderes empresariales colaborar sin problemas</p>
+        <ul class="pl-0 service-list">
+          <li><i class="ti-layout-tab-window text-purple"></i>Configurar los ajustes de la cuenta (permisos y segmentación)</li>
+          <li><i class="ti-layout-placeholder text-purple"></i>Solucionar problemas de forma diagnóstica para identificar problemas de entrega</li>
+          <li><i class="ti-support text-purple"></i>Visibilidad del rendimiento de los compañeros de equipo en todas las funciones</li>
+        </ul>
+      </div>
+      <div class="col-md-7 order-1 order-md-2">
+        <img class="img-fluid layer-3" src="datasendmails2023.png" alt="service">
+      </div>
+    </div>
+  </div>
+
+ <!-- team -->
+
+  <!-- backgound image -->
+  <!-- background shapes -->
+  <img class="team-bg-shape-1 up-down-animation" src="images/background-shape/seo-ball-1.png" alt="background-shape">
+  <img class="team-bg-shape-2 left-right-animation" src="images/background-shape/seo-ball-1.png" alt="background-shape">
+  <img class="team-bg-shape-3 left-right-animation" src="images/background-shape/team-bg-triangle.png" alt="background-shape">
+ </section>
+ <!-- /team -->
+ <br>
+ <br>
+ <br>
+ <br>
+
+ <section class="section-lg service">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-md-5 order-2 order-md-1">
+        <h2 class="section-title">Tus compañeros te lo agradecerán</h2>
+        <p class="mb-4">Elimine los silos para alcanzar objetivos compartidos. La plataforma de correo electrónico que permite a los desarrolladores, especialistas en marketing y líderes empresariales colaborar sin problemas</p>
+        <ul class="pl-0 service-list">
+          <li><i class="ti-layout-tab-window text-purple"></i>Configurar los ajustes de la cuenta (permisos y segmentación)</li>
+          <li><i class="ti-layout-placeholder text-purple"></i>Solucionar problemas de forma diagnóstica para identificar problemas de entrega</li>
+          <li><i class="ti-support text-purple"></i>Visibilidad del rendimiento de los compañeros de equipo en todas las funciones</li>
+        </ul>
+      </div>
+      <div class="col-md-7 order-1 order-md-2">
+        <img class="img-fluid layer-3" src="datasendmails2023.png" alt="service">
+      </div>
+    </div>
+  </div>
+ <section>
+
+
+ 
+ <br>
+ <br>
+ <br>
+ <br>
+
+
+ <!--aqui termina los del vscode -->
+ <!-- pricing -->
+
+  <!-- background shapes -->
+  <img class="pricing-bg-shape-1 up-down-animation" src="images/background-shape/seo-ball-1.png" alt="background-shape">
+  <img class="pricing-bg-shape-2 up-down-animation" src="images/background-shape/seo-half-cycle.png" alt="background-shape">
+  <img class="pricing-bg-shape-3 left-right-animation" src="images/background-shape/team-bg-triangle.png" alt="background-shape">
+ </section>
+ <!-- /pricing -->
+
+
+ <section class="section-lg service">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-md-5 order-2 order-md-1">
+        <h2 class="section-title">Tus compañeros te lo agradecerán</h2>
+        <p class="mb-4">Elimine los silos para alcanzar objetivos compartidos. La plataforma de correo electrónico que permite a los desarrolladores, especialistas en marketing y líderes empresariales colaborar sin problemas</p>
+        <ul class="pl-0 service-list">
+          <li><i class="ti-layout-tab-window text-purple"></i>Configurar los ajustes de la cuenta (permisos y segmentación)</li>
+          <li><i class="ti-layout-placeholder text-purple"></i>Solucionar problemas de forma diagnóstica para identificar problemas de entrega</li>
+          <li><i class="ti-support text-purple"></i>Visibilidad del rendimiento de los compañeros de equipo en todas las funciones</li>
+        </ul>
+      </div>
+      <div class="col-md-7 order-1 order-md-2">
+        <img class="img-fluid layer-3" src="datasendmails1995.png" alt="service">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="cover">
+    <div class="effect">
+    
+    </div>
+  
+    <div class="rectangle-11"></div>
+  <section class="conteguthub">
+    <div class="logo1">
+      <svg
+        class="terminal-solid-1"
+        width="45"
+        height="40"
+        viewBox="0 0 45 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g clip-path="url(#clip0_406_120)">
+          <path
+            d=""
+            stroke="#3294F8"
+            stroke-width="1.5"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0_406_120">
+            <rect width="45" height="40" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+  
+      <div class="github">GITHUB</div>
+    </div>
+  
+    <div class="profile">
+      <img class="avatar" src="datasendmails-n-logo.png" />
+  
+      <div class="name">datasendmail</div>
+  
+      <div class="info">
+        <div class="username">
+          <svg
+            class="icon"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_403_164)">
+              <path
+                d=""
+                fill="#3A536B"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_403_164">
+                <rect width="18" height="18" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+  
+          <div class="cameronwll">cameronwll</div>
+        </div>
+  
+        <div class="company">
+          <svg
+            class="icon2"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d=""
+              fill="#3A536B"
+            />
+          </svg>
+  
+          <div class="rocketseat">Rocketseat</div>
+        </div>
+  
+        <div class="followers">
+          <svg
+            class="icon3"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d=""
+              fill="#3A536B"
+            />
+          </svg>
+  
+          <div class="_32-seguidores">32 seguidores</div>
+        </div>
+      </div>
+  
+      <div class="bio">
+        Tristique volutpat pulvinar vel massa, pellentesque egestas. Eu viverra
+        massa quam dignissim aenean malesuada suscipit. Nunc, volutpat pulvinar
+        vel mass.
+      </div>
+  
+      <div class="github2">
+        <div class="label">github</div>
+  
+        <svg
+          class="icon4"
+          width="12"
+          height="13"
+          viewBox="0 0 12 13"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_1802_36)">
+            <path
+              d=""
+              fill="#3294F8"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_1802_36">
+              <rect
+                width="12"
+                height="12"
+                fill="white"
+                transform="translate(0 0.5)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+    </div>
+    </div>
+  </section>
+<br>
+<br>
+<br>
+<br>
+ <!-- client logo slider -->
+
+
+
+ 
+
+
+
+
+ <!-- newsletter -->
+ <section class="newsletter">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Subscribete </h2>
+        <p class="mb-5">ofrecemos un subscripcion gratuita solo escribe tu correo y estariamos enviando a tu correo la API para que la prubes 7 dias</p>
+      </div>
+      <div class="col-lg-8 col-sm-10 col-12 mx-auto">
+        <form action="#">
+          <div class="input-wrapper position-relative">
+            <input type="email" class="newsletter-form" id="newsletter" placeholder="Enter your email">
+            <button type="submit" value="send" class="btn newsletter-btn">subscribirse</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <!-- background shapes -->
+  <img class="newsletter-bg-shape left-right-animation" src="images/background-shape/seo-ball-2.png" alt="background-shape">
+ </section>
+ <!-- /newsletter -->
+</main>
+ <!-- footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+
+        <!-- logo -->
+        <a href="index.html">
+          <div class="logo-container000">
+            <img class="logo" src="loginm/datasendmails-n-logo 20.png" alt="logo">
+          </div>
+         
+        </a>
+      </div>
+      <!-- footer menu -->
+      <nav class="col-lg-8 align-self-center mb-5">
+        <ul class="list-inline text-lg-right text-center footer-menu">
+          <li class="list-inline-item active"><a href="index.html">Home</a></li>
+          <li class="list-inline-item"><a class="page-scroll" href="#feature">Feature</a></li>
+          <li class="list-inline-item"><a href="about.html">About</a></li>
+          <li class="list-inline-item"><a class="page-scroll" href="#team">Team</a></li>
+          <li class="list-inline-item"><a class="page-scroll" href="#pricing">Pricing</a></li>
+          <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- footer social icon -->
+      <nav class="col-12">
+        <ul class="list-inline text-lg-right text-center social-icon">
+          <li class="list-inline-item">
+            <a class="facebook" href="https://www.facebook.com/profile.php?id=100093602258284"><i class="ti-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a class="twitter" href="#"><i class="ti-twitter-alt"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a class="linkedin" href="#"><i class="ti-linkedin"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/datasendmails" target="blank" class="list-inline-item">
+              <i class="bi bi-github"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- venobox -->
+<script src="plugins/Venobox/venobox.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<!--animacion js -->
+
+
+
+
+<footer class="text-center">
+  <p>Todos los derechos reservados &copy; 2023 datasendmails</p>
+</footer>
+
+
+</body>
+</html>
